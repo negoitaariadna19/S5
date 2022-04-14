@@ -31,10 +31,7 @@ auto.setInterior("interior electric");
     public Masina getMasina() {
         return auto;
     }
-
-    public Masina getAuto() {
-        return auto;
-    }
+    
 
     public void Incarcator()
     {
