@@ -29,7 +29,7 @@ auto.setInterior("interior electric");
 
     @Override
     public Masina getMasina() {
-        return null;
+        return auto;
     }
 
     public Masina getAuto() {
