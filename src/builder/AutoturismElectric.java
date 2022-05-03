@@ -27,4 +27,15 @@ this.motor=motor;
     public void setInterior(String interior) {
 this.interior=interior;
     }
+
+    @Override
+    public String toString() {
+        return "AutoturismElectric{" +
+                "sasiu='" + sasiu + '\'' +
+                ", roti='" + roti + '\'' +
+                ", motor='" + motor + '\'' +
+                ", interior='" + interior + '\'' +
+                ", incarcator='" + incarcator + '\'' +
+                '}';
+    }
 }
